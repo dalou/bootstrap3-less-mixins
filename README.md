@@ -31,12 +31,7 @@ body {
 	.responsive-max(400px, {
 		background: red;
 	})
-}
-```
-
-*Ex:
-```css
-body { 
+ 
 	/* Hide .nav-desktop elements for phone screen size only */
 	.nav-desktop {
 		.phone-only({
