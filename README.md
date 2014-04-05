@@ -5,8 +5,16 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 
 ### Commons shortcuts headers
 ```css
+/* Set relative position */
+.relative();
 /* Combine absolute left top position */
 .absolute-lt(@left, @top);
+/* Set relative top centered position (element-width for margin calculation) */
+.absolute-horizontal-center(@element-width:0);
+/* Set relative left centered position (element-height for margin calculation) */
+.absolute-vertical-center(@element-height:0);
+/* Set absolute centered position  */
+.absolute-center(@element-width:0; @element-height:0);
 ```
 ...
 
