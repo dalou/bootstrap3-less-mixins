@@ -6,14 +6,18 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 ### Responsive shortcuts
 
 ```less
-.responsive-min(@size, @rules)
-.responsive-max(@size, @rules)
-.responsive-range(@start, @end, @rules)
+.responsive-min(@size, @rules) // rules for a minimum screen size
+.responsive-max(@size, @rules) // rules for a maximum screen size
+.responsive-range(@start, @end, @rules) // rules for a screen size range
 
-.phone-[min|max|only](@rules)
-.tablet-[min|max|only](@rules)
-.desktop-[min|max|only](@rules)
-.lg-desktop-[min|max|only](@rules)
+.phone-[min|max|only](@rules) // rules for phone screen size panel
+.tablet-[min|max|only](@rules) // rules for phone screen size panel
+.desktop-[min|max|only](@rules) // rules for phone screen size panel
+.lg-desktop-[min|max|only](@rules) // rules for phone screen size panel
+
+.device-gradient(@phone-rules, @tablet-rules, @desktop, @lg-desktop) // rules for gradient phone, tablet, desktop, lg-desktop
+.device-gradient-exclusive(@phone-rules, @tablet-rules, @desktop, @lg-desktop) // same as previous but exclusive rules (only like)
+.device-gradient-inverted(@phone-rules, @tablet-rules, @desktop, @lg-desktop) // same as previous but max screen sizes rules (max like)
 ```
 
 ### Usage
