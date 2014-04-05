@@ -21,7 +21,9 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 *Ex: 
 ```css
 body { 
+	/* Set a default font size */
 	font-size: 10px;
+	
 	/* Set a larger font sizing for tablet screen size and more */
 	.tablet-min({
 		font-size: 14px;
