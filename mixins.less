@@ -64,3 +64,22 @@
 .lg-desktop-only(@rules) {
 	.responsive-min(@screen-lg-min, @rules);
 }
+
+.device-gradient(@phone-rules, @tablet-rules, @desktop-rules, @lg-desktop-rules) {
+	.phone-min(@phone-rules);
+	.tablet-min(@tablet-rules);
+	.desktop-min(@desktop-rules);
+	.lg-desktop-min(@lg-desktop-rules);
+}
+.device-gradient-exlusive(@phone-rules, @tablet-rules, @desktop-rules, @lg-desktop-rules) {
+	.phone-only(@phone-rules);
+	.tablet-only(@tablet-rules);
+	.desktop-only(@desktop-rules);
+	.lg-desktop-only(@lg-desktop-rules);
+}
+.device-gradient-inverted(@phone-rules, @tablet-rules, @desktop-rules, @lg-desktop-rules) {
+	.phone-max(@phone-rules);
+	.tablet-max(@tablet-rules);
+	.desktop-max(@desktop-rules);
+	.lg-desktop-max(@lg-desktop-rules);
+}
