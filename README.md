@@ -5,14 +5,14 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 
 ### Responsive shortcuts
 
-.responsive-min(@size, @rules)
-.responsive-max(@size, @rules)
-.responsive-range(@start, @end, @rules)
+*.responsive-min(@size, @rules)
+*.responsive-max(@size, @rules)
+*.responsive-range(@start, @end, @rules)
 
-.phone-[min|max|only](@rules)
-.tablet-[min|max|only](@rules)
-.desktop-[min|max|only](@rules)
-.lg-desktop-[min|max|only](@rules)
+*.phone-[min|max|only](@rules)
+*.tablet-[min|max|only](@rules)
+*.desktop-[min|max|only](@rules)
+*.lg-desktop-[min|max|only](@rules)
 
 ### Usage
 
