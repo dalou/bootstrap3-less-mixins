@@ -6,7 +6,9 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 ### Responsive shortcuts
 
 *.responsive-min(@size, @rules)*
+
 *.responsive-max(@size, @rules)*
+
 *.responsive-range(@start, @end, @rules)*
 
 *.phone-[min|max|only](@rules)*
