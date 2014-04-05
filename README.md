@@ -8,7 +8,7 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 ```css
 /* rules for a minimum screen size */
 .responsive-min(@size, @rules);
-/* rules for a maximum screen size
+/* rules for a maximum screen size */
 .responsive-max(@size, @rules);
 /* rules for a screen size range */
 .responsive-range(@start, @end, @rules);
