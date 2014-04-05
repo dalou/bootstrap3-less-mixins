@@ -43,7 +43,7 @@ body {
 	
 	/* Hide .nav-phone elements for desktop screen size only */
 	.nav-phone {
-		.desktop-only({
+		.tablet-min({
 			display: none;
 		})
 	}	
