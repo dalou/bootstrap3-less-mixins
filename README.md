@@ -5,7 +5,7 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 
 ### Responsive shortcuts headers
 
-```less
+```css
 /* rules for a minimum screen size */
 .responsive-min(@size, @rules);
 /* rules for a maximum screen size
@@ -30,9 +30,8 @@ Bootstrap 3 LESS Mixins, misc and responsive utilities
 .device-gradient-inverted(@phone-rules, @tablet-rules, @desktop, @lg-desktop); 
 ```
 
-### Usage
-
-*Ex: 
+### Usage examples
+ 
 ```css
 body { 
 	/* Set a default font size */
@@ -60,6 +59,13 @@ body {
 		.tablet-min({
 			display: none;
 		})
-	}	
+	}
+	
+	/* Set H1 bold from desktop screen size minimum and H2 bold from large desktop screen size minimum */
+	.device-gradient(,,{
+		h1 { font-weight: bold; }
+	}, {
+		h2 { font-weight: bold; }	
+	})
 }
 ```
