@@ -3,6 +3,13 @@ bootstrap3-less-mixins
 
 Bootstrap 3 LESS Mixins, misc and responsive utilities
 
+### Commons shortcuts headers
+```css
+/* Combine absolute left top position */
+.absolute-lt(@left, @top);
+```
+...
+
 ### Responsive shortcuts headers
 
 ```css
