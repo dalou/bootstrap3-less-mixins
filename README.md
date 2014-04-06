@@ -3,6 +3,18 @@ bootstrap3-less-mixins
 
 Bootstrap 3 LESS Mixins, misc and responsive utilities
 
+### Install and requierements
+*This mixins depends of your bootstrap3 less import
+```css
+@import "your_path_to_the_vendors/bootstrap3/less/bootstrap.less"; /* or just variables.less */
+@import "mixins.less";
+```
+*if you dont want implement bootstrap3, just import the variables file
+```css
+@import "device_variables.less";
+@import "mixins.less";
+```
+
 ### Commons shortcuts headers
 ```css
 /* Set relative position */
