@@ -9,6 +9,40 @@
 	top: @top;
 }
 
+.absolute-rb(@right: 0; @bottom: 0) {
+	position: absolute;
+	right: @right;
+	bottom: @bottom;
+}
+
+.absolute-rt(@right: 0; @top: 0) {
+	position: absolute;
+	right: @right;
+	top: @top;
+}
+
+.absolute-lb(@left: 0; @bottom: 0) {
+	position: absolute;
+	left: @left;
+	bottom: @bottom;
+}
+
+.filter(@filter) {
+	filter: @filter;
+	-ms-filter: @filter;
+	-o-filter: @filter;
+	-moz-filter: @filter;
+	-webkit-filter: @filter;
+
+}
+					
+.border-radius(@radius) {
+	border-radius: @radius;
+	-o-border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
 .absolute-horizontal-center(@element-width:0) {
 	.absolute-lt(50%);
 	margin-left: -(@element-width / 2);
@@ -53,7 +87,7 @@
 	.responsive-min(@screen-sm-min, @rules);
 }
 .tablet-max(@rules) {
-	.responsive-max(@screen-sm-min, @rules);
+	.responsive-max(@screen-sm-max, @rules);
 }
 .tablet-only(@rules) {
 	.responsive-range(@screen-sm-min, @screen-sm-max, @rules);
